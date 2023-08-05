@@ -54,6 +54,59 @@ const Home = (props) => {
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
             </div>
+            {/* MY COMPONENT --- START */}
+            <div className={styles.services}>
+              <h2>All Branding Agency Services</h2>
+              <p className={styles['service-description']}>Let our Squad of 250K+ exprerts from around the world help you launch your brand!</p>
+              <div className={styles['service-cards']}>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-star"></i>
+                  <h3>Premium Domains</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-users"></i>
+                  <h3>Naming Contests</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-user-tie"></i>
+                  <h3>Managed contests</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-clipboard"></i>
+                  <h3>Logo Contests</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-comments"></i>
+                  <h3>Tagline Contests</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-video"></i>
+                  <h3>Video Creation</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-chart-line"></i>
+                  <h3>Audience Testing</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-shopping-bag"></i>
+                  <h3>Trademark Research</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div className={styles['service-card']}>
+                  <i class="fas fa-copyright"></i>
+                  <h3>Trademark Filling</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+            {/* MY COMPONENT --- END */}
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
               <div className={styles.cardContainer}>
@@ -65,7 +118,7 @@ const Home = (props) => {
                     name ideas from world's largest community of naming experts.
                     With 75,000+ creatives and 15,000+ successful naming projects,
                     Squadhelp is by far the largest naming platform across the globe .
-</p>
+                  </p>
                 </div>
                 <div className={styles.card}>
                   <img
@@ -78,7 +131,7 @@ const Home = (props) => {
                     we ensure that you receive more ideas from our top-quality creatives,
                     and Gamification best practices ensure two-way communication throughout your
                     contest.
-</p>
+                  </p>
                 </div>
                 <div className={styles.card}>
                   <img
@@ -91,7 +144,7 @@ const Home = (props) => {
                     demographics to get unbiased feedback on your favorite names.
                     Also receive Trademark support from our team of Licensed Trademark Attorneys,
                     so you can pick your name with confidence.
-</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -146,9 +199,9 @@ const Home = (props) => {
                   <p>
                     <i className="fas fa-check" />
                     <span>
-                        We’ll walk you through exactly what you need to share about your project
-                        in order to get an awesome Name
-</span>
+                      We’ll walk you through exactly what you need to share about your project
+                      in order to get an awesome Name
+                    </span>
                   </p>
                 </div>
                 <img src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/1-compressed.gif`} alt="compressed" />
